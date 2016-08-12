@@ -1,0 +1,10 @@
+/*index page*/
+aside ul{padding-left: 30px;}
+aside ul li a{font-size: 13px;font-family: arial, sans-serif;font-weight: normal;color: rgb(75, 78, 88);padding: 3px 10px 3px 0px;}
+
+@media screen and (max-width: 1068px){
+    .product {margin-bottom: 5px;}
+}
+
+.verification-img img{transition:all ease .1s;}
+.verification-img img:hover{opacity: .9;}

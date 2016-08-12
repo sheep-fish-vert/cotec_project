@@ -1,0 +1,272 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1439px) {
+  .map img {
+    width: 75%; }
+
+  .wraper_product {
+    text-align: center; }
+
+  .claim a,
+  .share {
+    float: right; }
+
+  .akcii .block-akcii {
+    width: 225px;
+    height: 225px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1291px) {
+  header .callback:before {
+    top: -58px; }
+
+  aside {
+    position: relative; }
+    aside h3 {
+      cursor: pointer; }
+    aside ul {
+      display: none; }
+
+  .map {
+    display: none; }
+
+  .wraper_product {
+    text-align: left; }
+
+  .claim a,
+  .share {
+    float: none; }
+
+  .share {
+    display: none; }
+
+  .wrap_left_side {
+    width: 22%; }
+
+  .content {
+    width: 78%; }
+
+  .wrap_right_side {
+    display: block; }
+
+  aside ul {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: #eee;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    width: 210px;
+    margin-left: -1px; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 1067px) {
+  header img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 0; }
+
+  .thanks {
+    padding: 0; }
+    .thanks .txt-thanks {
+      padding: 40px 0 0 40px; }
+
+  header h1 {
+    padding: 0 15px;
+    text-align: center; }
+  header .phone {
+    padding-top: 10px;
+    text-align: center; }
+  header .callback {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 216px; }
+    header .callback:before {
+      display: none; }
+  header p {
+    text-align: center; }
+  header form {
+    padding-top: 10px;
+    margin-right: 15px; }
+  header .navbar-header,
+  header .navbar-toggle {
+    float: none; }
+  header .navbar-toggle {
+    margin-left: 15px; }
+  header .navbar-nav {
+    margin: 0; }
+  header .navbar-default .navbar-nav > li > a {
+    border-radius: 0;
+    text-align: center; }
+  header .navbar-nav .open .dropdown-menu {
+    background-color: #efefef; }
+  header .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #333;
+    text-align: center; }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
+  .wraper_product {
+    text-align: center; }
+
+  .claim a {
+    margin: 0 auto; }
+
+  footer .name {
+    padding: 20px 0 0;
+    text-align: center; }
+  footer .wrap_email_icq {
+    margin-right: 0; }
+  footer .address {
+    padding-top: 10px;
+    width: 345px;
+    margin: 0 auto; }
+  footer ul {
+    padding: 15px 0;
+    text-align: center; }
+
+  header .drop_menu {
+    position: static;
+    width: 100%;
+    text-align: center; }
+
+  .wrap_left_side {
+    padding-left: 15px;
+    width: 24%; }
+
+  .content {
+    width: 75%; } }
+@media only screen and (max-width: 768px) {
+  aside .subMenu {
+    left: 5%; }
+
+  .wrap_left_side {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0 auto; }
+
+  aside h3 {
+    width: 196px;
+    padding-left: 0;
+    text-align: center; }
+
+  .claim {
+    margin-top: 15px; }
+
+  .thanks .txt-thanks {
+    width: 100%; }
+    .thanks .txt-thanks a {
+      display: inline-block;
+      margin: 0 auto; }
+  .thanks .img-thanks {
+    width: 100%;
+    text-align: center; }
+    .thanks .img-thanks img {
+      margin: 15px auto 0; } }
+@media screen and (max-width: 660px) {
+  .delivery-in {
+    text-align: center; }
+    .delivery-in .example {
+      width: 50%; } }
+@media screen and (max-width: 660px) {
+  .results .tepl-block {
+    float: none;
+    clear: both;
+    margin: 0 auto; } }
+@media screen and (max-width: 539px) {
+  .big {
+    width: 100%;
+    text-align-last: center; }
+    .big ul {
+      width: 100%;
+      max-width: none;
+      padding: 0;
+      font-size: 0; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  header input[type="search"] {
+    width: 160px; }
+
+  .seo p {
+    text-align: justify; }
+
+  footer .address {
+    width: 100%;
+    text-align: center; }
+
+  footer .wrap_phone_time,
+  footer .wrap_email_icq {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+
+  .verification-img img {
+    width: 100%; }
+
+  .thanks h2 {
+    font-size: 25px; }
+
+  .thanks {
+    padding: 65px 15px 0; }
+    .thanks .txt-thanks {
+      padding: 0; }
+
+  .contact-right {
+    width: 100%; }
+
+  .contact-left {
+    width: 100%;
+    margin-bottom: 20px; }
+
+  .akcii {
+    text-align: center; }
+
+  .tepl-prib {
+    float: none !important;
+    margin: 10px auto !important; }
+
+  .teplovizoru .teploviz .pagination .pagin ul {
+    width: 260px; }
+    .teplovizoru .teploviz .pagination .pagin ul li {
+      margin: 0; }
+
+  .gift-cart .gift-right {
+    display: none; }
+
+  .gift-cart .gift-left {
+    width: 100%;
+    max-width: 100%; } }
+@media screen and (max-width: 460px) {
+  .delivery-in {
+    text-align: center; }
+    .delivery-in .example {
+      width: 100%; }
+
+  aside {
+    margin: 20px auto; } }
+@media only screen and (max-width: 340px) {
+  .teplovizoru .teploviz .tepl-block .tepl-bl-right {
+    margin-left: 5px; }
+
+  .teplovizoru .teploviz .tepl-block {
+    width: 280px; }
+
+  .teplovizoru .teploviz .tepl-block .tepl-bl-left .tepl-img {
+    width: 115px; }
+
+  .teplovizoru .teploviz .tepl-block .tepl-bl-right {
+    margin-left: 5px; }
+
+  .tepl-block {
+    width: 280px; }
+
+  .tepl-block .tepl-bl-left .tepl-img {
+    width: 115px; }
+
+  .input-filter2 {
+    margin-left: 51px;
+    margin-top: 10px; 
+  }
+}

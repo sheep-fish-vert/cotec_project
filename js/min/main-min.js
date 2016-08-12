@@ -1,0 +1,1 @@
+$(function(){$("aside h3").on("click",function(){$("aside > ul").fadeToggle()})});
